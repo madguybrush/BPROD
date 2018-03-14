@@ -1,0 +1,136 @@
+*{
+	font-family: 'GeosansLight', sans-serif;
+}
+
+body{
+	height:100%;
+	width: 100%;
+	margin: 0;
+		overflow-x: hidden;
+}
+
+
+/*
+@font-face {
+font-family: 'GeosansLight';
+font-style: normal;
+font-weight: normal;
+src: local('GeosansLight'), url('GeosansLight.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'GeosansLight-Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('GeosansLight-Oblique'), url('GeosansLight-Oblique.woff') format('woff');
+}
+*/
+
+
+
+.capture {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    color: #fff;
+    width: 100%;
+    margin:auto;
+	/*margin-left: 230px;*/
+}
+
+.capture h2 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.capture h3 {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.button_s {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #fff;
+    color:  #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 2px;
+    transition:all .3s ease-in-out;
+    -webkit-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+		z-index: 9999;
+		text-decoration: none;
+
+}
+
+
+.button_s:hover {
+    border: 2px solid #fff;
+    text-decoration: none;
+    color:  #000;
+	background: white;
+
+}
+
+
+/*
+ a.prev {
+  float: none;
+  margin-top: 10px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+
+z-index: 9999;
+    transition:all .3s ease-out;
+    -webkit-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+ 
+}
+
+a.next {
+  float: none;
+    margin-bottom: 10px;
+	  position: fixed;
+	  
+  bottom: 0;
+  left: 50%;
+
+		z-index: 9999;
+		    transition:all .3s ease-out;
+    -webkit-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+}
+
+
+ a.prev:hover {
+  margin-top: 5px;
+
+color: #fff;
+}
+a.next:hover {
+
+	color: #fff;
+  margin-bottom: 5px;
+
+}
+
+*/
+
+
+
+	

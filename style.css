@@ -1,0 +1,148 @@
+
+
+*{
+	font-family: Arial, sans-serif;
+	color: #eee;
+}
+
+
+/**menu****/
+
+.navbar{
+	background-color: rgba(0, 0, 0, 0.3) ;
+
+}
+
+.navbar-light .navbar-brand{
+		color: white;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after{
+	border : none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: white;
+	text-decoration: underline;
+}
+
+.form-control{
+	padding : 4px;
+}
+.btn-outline-success{
+	border-color: transparent;
+}
+.btn-outline-success:hover{
+	background-color: black;
+	border-color: white;
+
+}
+
+/******/
+
+
+.slides-navigation a{
+	color : white;
+ transition:all .3s ease-out;
+    -webkit-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+}
+
+.slides-navigation a.next{
+	right: 10px;
+}
+
+.slides-navigation a.prev{
+	left: 10px;
+}
+
+.slides-navigation a.prev:hover {
+  left: 5px;
+
+color: #000;
+}
+.slides-navigation a.next:hover {
+
+	color: #000;
+  right: 5px;
+
+}
+
+
+
+.slides-pagination{
+	bottom : 10px;
+
+}
+
+.slides-pagination a{
+		border: 2px solid #ddd;
+}
+
+.slides-pagination a.current{
+	background: #ddd;
+}
+
+
+.capture {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    color: #fff;
+    width: 100%;
+    margin:auto;
+	/*margin-left: 230px;*/
+}
+
+.capture h2 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.capture h3 {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.button_s {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #fff;
+    color:  #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 2px;
+    transition:all .3s ease-in-out;
+    -webkit-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+		z-index: 9999;
+		text-decoration: none;
+
+}
+
+
+.button_s:hover {
+    border: 2px solid #fff;
+    text-decoration: none;
+    color:  #000;
+	background: white;
+
+}
