@@ -34,10 +34,8 @@ src: local('GeosansLight-Oblique'), url('GeosansLight-Oblique.woff') format('wof
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
-	/*height: 50px;*/
+	height: 50px;
 }
-
-
 
 .navbar-collapse{
 	margin-right: 10px;
@@ -83,11 +81,6 @@ src: local('GeosansLight-Oblique'), url('GeosansLight-Oblique.woff') format('wof
 }
 
 
-.dropdown-item.active, .dropdown-item:active{
-	text-decoration: underline;
-}
-
-
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
@@ -96,25 +89,13 @@ src: local('GeosansLight-Oblique'), url('GeosansLight-Oblique.woff') format('wof
 .navbar-light .navbar-brand{
 		color: white;
 		padding: 0px;
-		margin: 5px;
 		margin-left: 10px;
-		
 }
 
 .navbar-brand img{
 	max-height: 40px;
-		transition: all .3s ease-out;
-    -webkit-transition:all .3s ease-out;
-    -o-transition:all .3s ease-out;
-    -moz-transition:all .3s ease-out;
-    -ms-transition:all .3s ease-out;
 }
 
-/*
-.navbar-brand img:hover{
-	    -webkit-filter: blur(1px); 
-    filter: blur(1px);
-}*/
 
 
 .navbar-collapse.active a:hover{
@@ -145,7 +126,6 @@ line-height: 50px;
 
 .navbar-toggler{
 	border-radius: 0;
-	margin-right: 10px;
 }
 
 
@@ -201,11 +181,11 @@ line-height: 50px;
 
 .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
 	color: white;
-	/*text-decoration: underline;*/
+	text-decoration: underline;
 }
 
 .navbar-light .navbar-toggler{
-	background-color: rgba(255,255,255,.5);
+	background-color: #eee;
 }
 
 .form-inline{
@@ -371,55 +351,6 @@ color: #000;
 	background: white;
 	letter-spacing: 1px;
 
-}
-
-
-/************************** PAGE FILM *****************************/
-
-
-.navbar2{
-	background-color: rgba(0, 0, 0, 0.8) ;
-	max-width: 80%;
-	margin: auto;
-
-}
-/*
-html, body .film{
-		background-color: rgba(239, 149, 5, 0.3);
-}*/
-
-#content{
-	max-width: 80%;
-	margin: auto;
-	background-color: rgba(239, 149, 5, 0.2);
-	/*height: 100%;*/
-	margin-top: 50px;
-	padding: 40px;
-	padding-top: 30px;
-}
-
-#content a{
-	color: #ef9505;
-}
-
-#content h1{
-	font-size: 2.6rem;
-	/*font-weight: bold;*/
-	text-transform: uppercase;
-}
-
-#content h3{
-	font-size: 1.1rem;
-	padding: 4px;
-}
-/*
-#content h4{
-	line-height: 48px;
-}*/
-
-#content img{
-	max-width: 100%;
-	/*max-height: 600px;*/
 }
 
 
