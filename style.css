@@ -400,11 +400,12 @@ html, body .film{
 .container{
 	max-width: 70%;
 	margin: auto;
-		background-color: white;
+		/*background-color: white;*/
+		background-color: rgba(255, 255, 255, 0.85);
 			margin-top: 50px;
 	padding: 40px;
 	padding-top: 30px;
-	height: 100%;
+	min-height: 100%;
 }
 
 
@@ -433,11 +434,12 @@ html, body .film{
 
 #content img{
 	max-width: 100%;
-
+	margin-bottom: 5px;
 }
 
 #content .imgbtn{
 	max-width: 100%;
+
 	/*max-height: 600px;*/
 	    transition:all .3s ease-in-out;
     -webkit-transition:all .3s ease-in-out;
@@ -448,6 +450,11 @@ html, body .film{
 
 #content .imgbtn:hover{
 	opacity: 0.5;
+		  -o-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -webkit-transform: scale(0.96);
+  transform: scale(0.96);
 	/*max-height: 600px;*/
 }
 
@@ -466,7 +473,7 @@ html, body .film{
 	max-width: 70vw; /*80%;*/
 	max-height: 70%;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 55px;
 }
 
 .modal-content{
@@ -484,6 +491,10 @@ html, body .film{
 	padding: 0;
 }
 
+#content .modal-body img{
+	margin-bottom: 0;
+}
+
 .btnimg{
 	padding: 0;
 	margin: 0;
@@ -498,4 +509,117 @@ button.close{
 	position: absolute;
 	top:5px;
 	right:5px;
+}
+
+
+
+.download  {
+
+/*	padding: 0;
+	margin: 0px;*/
+ /* overflow: hidden;*/
+  max-height: 50%;
+
+    
+}
+/*
+.download  {
+	opacity: 0.7;
+  max-width: 100%;
+  overflow: hidden;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+    
+}
+
+.download img {
+	opacity: 0.7;
+	
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+    
+}
+
+.download:hover  {
+	  -o-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -webkit-transform: scale(0.96);
+  transform: scale(0.96);
+
+}*/
+
+/*
+.download a {
+	opacity: 0.7;
+	padding: 0;
+  max-width: 100%;
+  overflow: hidden;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+    
+}
+
+.download a:hover >img {
+	  -o-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -webkit-transform: scale(0.96);
+  transform: scale(0.96);
+  opacity: 0.5;
+
+}*/
+
+/*
+.over{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10%;
+	color: white;
+	text-shadow: 1px 1px #000;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+}*/
+
+.cadre{
+	width: 100%;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	padding: 3px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+	 -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.cadre:hover{
+
+		  -o-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -webkit-transform: scale(0.96);
+  transform: scale(0.96);
+  opacity: 0.5;
+}
+
+.download a{
+	color: black;
+	text-decoration: none;
+}
+
+.last{
+	margin-bottom:15px;
+	margin-top: 15px;
 }
