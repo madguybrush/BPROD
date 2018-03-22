@@ -8,7 +8,14 @@
 html, body{
 	width: 100%;
 	height: 100%;
+	font-size: 100%; 
 	/*background-color: rgba(239, 149, 5, 0.2);*/
+}
+
+@media only screen and (max-width:576px){
+	html, body{
+	font-size: 75%; 
+}
 }
 
 @font-face {
@@ -390,6 +397,7 @@ html, body .film{
 
 #content{
 	min-height: 100%;
+	/*height: calc(100% - 50px);*/
 	background-size: cover;
 	/*max-width: 70%;*/
 	/*background-color: rgba(239, 149, 5, 0.2);*/
