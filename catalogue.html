@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balthazar Production</title>
+  <!-- <link rel="stylesheet" href="css/superslides.css"> -->
+  <link href="css/fontawesome-all.css" rel="stylesheet">
+  <!--  <link rel="stylesheet" href="css/animate.css">-->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+
+
+<nav class="navbar  fixed-top navbar-right navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Les Productions Balthazar"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Accueil </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">En projet</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catalogue</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Longs métrages</a>
+          <a class="dropdown-item" href="#">Courts métrages</a>
+          <!--<div class="dropdown-divider"></div>-->
+          <a class="dropdown-item" href="#">Documentaires</a>
+        </div>
+      </li>
+	        <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+  <!--    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>-->
+    </ul>
+    <form class="form-inline  my-lg-0 margin-left"> <!-- my-2 -->
+      <input class="form-control" type="search" placeholder="Rechercher" aria-label="Search"> <!--  mr-sm-2 -->
+      <button class="btn loupe btn-outline-success my-2 my-sm-0" type="submit"> <i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</nav>
+
+
+<header class="headercatalogue"> <!--style="background-image: url('images/naissancedespieuvres.jpg');"-->  <!-- http://digitalzoomstudio.net/previews/parallaxer/     naissancedespieuvres.jpg   -->
+
+
+<div class="jumbotron text-center">
+<h1>Catalogue</h1> 
+<h2>ordre alphabétique / ordre chronologique</h2>
+<div class="button-group sort-by-button-group">
+  <button class="button" data-sort-by="annee">chrono/original order</button> <!-- original-order // wpquery par date de création des articles ? // date de création article doit être égale à date de sortie-->
+  <button class="button" data-sort-by="name">alphabétique</button>
+  <button class="button" data-sort-by="category">category</button>
+</div>
+</div>
+
+</header>
+
+
+<section id="content" class="catalogue">
+
+<div class="grid">
+<div class="gutter-sizer"></div>
+  <div class="grid-item">
+	<img src="images/naissancedespieuvres.jpg" alt="">
+	    <h2 class="name">a</h2>
+		<h2 class="annee">2015</h2>
+  </div>
+  <div class="grid-item ">
+		<img src="images/naissancedespieuvres.jpg" alt="">
+	    <h2 class="name">b</h2>
+		<h2 class="annee">2004</h2>
+	</div>
+  <div class="grid-item">
+	<img src="images/naissancedespieuvres.jpg" alt="">
+	    <h2 class="name">c</h2>
+		<h2 class="annee">1998</h2>
+  </div>
+    <div class="grid-item">
+	<img src="images/naissancedespieuvres.jpg" alt="">
+	    <h2 class="name">d</h2>
+		<h2 class="annee">1985</h2>
+  </div>
+    <div class="grid-item">
+	<img src="images/naissancedespieuvres.jpg" alt="">
+	<h2 class="name">e</h2>
+	<h2 class="annee">2000</h2>
+  </div>
+  <div class="grid-item ">
+		<img src="images/naissancedespieuvres.jpg" alt="">
+		<h2 class="name">f</h2>
+		<h2 class="annee">2009</h2>
+	</div>
+  <div class="grid-item">
+	<img src="images/naissancedespieuvres.jpg" alt="">
+	<h2 class="name">g</h2>
+	<h2 class="annee">2008</h2>
+  </div>
+    <div class="grid-item">
+	<img src="images/naissancedespieuvres.jpg" alt="">
+	<h2 class="name">h</h2>
+	<h2 class="annee">2007</h2>
+  </div>
+</div>
+
+
+</section>
+
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.animate-enhanced.min.js"></script>
+ <!-- <script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/application.js" type="text/javascript" charset="utf-8"></script>-->
+  
+	 <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	  <script src="js/imagesloaded.pkgd.min.js"></script>
+	 <script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
